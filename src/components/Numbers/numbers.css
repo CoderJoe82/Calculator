@@ -1,0 +1,19 @@
+#Numbers {
+    height: 100%;
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#row1, #row2, #row3, #row4, #row5 {
+    display: flex;
+    justify-content: space-between;
+    height: 18%;
+}
+
+.theNumberButtons {
+    width: 30%;
+    font-size: 30px;
+    border-radius: 12px;
+}

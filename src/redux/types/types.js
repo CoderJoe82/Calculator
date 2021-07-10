@@ -1,0 +1,5 @@
+export const SET_NUMBER = 'SET_NUMBER'
+export const SET_OPERATOR = 'SET_OPERATOR'
+export const SET_CLEAR = 'SET_CLEAR'
+export const SET_SOLVE = 'SET_SOLVE'
+export const SET_ERROR = 'SET_ERROR'

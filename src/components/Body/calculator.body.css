@@ -1,0 +1,19 @@
+#CalcBody {
+    height: 70%;
+    width: 30%;
+    border: black solid 1px;
+    border-radius: 15px;
+    background-color: rgb(34, 34, 114);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#numAndOperators {
+    display: flex;
+    width: 90%;
+    position: absolute;
+    bottom: 5%;
+    height: 75%;
+}
