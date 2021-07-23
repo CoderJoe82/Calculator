@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { SET_NUMBER, SET_ERROR } from '../../redux/types/types'
-import './operators.css'
+import { SET_NUMBER, SET_ERROR } from '../../../redux/types/types'
+import './operators.small.css'
 
-class Operators extends Component {
+class OperatorsSmall extends Component {
 
     handleButtonClick = (e) => {
         if (this.props.equation.length < 12) {
@@ -45,4 +45,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Operators)
+export default connect(mapStateToProps, mapDispatchToProps)(OperatorsSmall)

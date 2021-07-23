@@ -1,14 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
-import App from './App'
-import store from './redux/store/store'
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import App from "./App";
+import store from "./redux/store/store";
+import { BreakpointProvider } from "react-socks";
 
-window.store = store
+window.store = store;
 
 ReactDOM.render(
-  <Provider store = {store}>
-    <App />
+  <Provider store={store}>
+    <BreakpointProvider>
+      <App />
+    </BreakpointProvider>
   </Provider>,
-  document.getElementById('root')
-)
+  document.getElementById("root")
+);

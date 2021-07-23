@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import CalcDisplay from "../Display/calculator.display";
-import Numbers from "../Numbers/numbers";
-import Operators from "../Operators/operators";
+import CalcDisplay from '../../Display/Large/calculator.display'
+import Operators from "../../Operators/Large/operators"
+import Numbers from "../../Numbers/Large/numbers"
 import "./calculator.body.css";
 
 class CalcBody extends Component {

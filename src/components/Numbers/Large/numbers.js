@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { SET_NUMBER, SET_ERROR, SET_CLEAR, SET_SOLVE } from "../../redux/types/types";
+import { SET_NUMBER, SET_ERROR, SET_CLEAR, SET_SOLVE } from "../../../redux/types/types";
 import "./numbers.css";
 
 class Numbers extends Component {
